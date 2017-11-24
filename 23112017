@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------------  Big Sorting(https://www.hackerrank.com/challenges/big-sorting/problem)  ---------------------------------------------------------------------------------------  import java.io.*; 
+import java.util.*;  
+import java.text.*;  
+import java.math.*;  
+import java.util.regex.*;    
+public class Solution {        
+public static void main(String[] args) {          
+Scanner in = new Scanner(System.in);          
+int n = in.nextInt();          
+String[] unsorted = new String[n];          
+for(int unsorted_i=0; 
+unsorted_i < n; unsorted_i++){             
+ unsorted[unsorted_i] = in.next();          }        
+ // your code goes here          
+ BigInteger[] b=new BigInteger[unsorted.length];          
+ for(int i=0;i<unsorted.length;i++)             
+ b[i]=new BigInteger(unsorted[i]);          
+ Arrays.sort(b);          
+ for(BigInteger a:b) 
