@@ -1,3 +1,7 @@
+--------------------------------------------------------------------------------------------  
+ARITHMETIC EXPRESSIONS(https://www.hackerrank.com/challenges/arithmetic-expressions/problem)  
+---------------------------------------------------------------------------------------------
+
 import java.io.*;
 import java.util.*;
 public class Solution {
